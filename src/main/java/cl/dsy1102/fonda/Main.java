@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         GestorFonda gestor = new GestorFonda();
 
-        BebidaAlcoholica chichaAlcoholica = new BebidaAlcoholica("Chicha", 1000, 40, 3, 12.0, false, true);
-        BebidaAlcoholica piscoSour = new BebidaAlcoholica("Pisco Sour", 500, 25, 3, 18.0, true, false);
+        BebidaAlcoholica chichaAlcoholica = new BebidaAlcoholica("Chicha", 1000, 40, 12.0, false, true);
+        BebidaAlcoholica piscoSour = new BebidaAlcoholica("Pisco Sour", 500, 25,  18.0, true, false);
 
         BebidaSinAlcohol chichaSinAlcohol = new BebidaSinAlcohol("Chicha", 1000, 60, 95);
         BebidaSinAlcohol moteConHuesillo = new BebidaSinAlcohol("Mote con Huesillo", 400, 50, 70);
